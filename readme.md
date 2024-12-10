@@ -45,11 +45,11 @@ This project is a movie search application built with MongoDB, Redis, and Elasti
 
 ## API Endpoints
 
-1. POST /indexMovie
+### 1. POST /indexMovie
 
 This endpoint is used to index a new movie into Elasticsearch.
 
-### Example Request:
+#### Example Request:
 
 POST /indexMovie
 
@@ -61,11 +61,11 @@ POST /indexMovie
     "genre": "Sci-Fi"
     }
 
-2. GET /search
+### 2. GET /search
 
 Search for movies based on a query. The query will search across the fields movieName, cinema, actorName, and genre.
 
-### Example Request:
+#### Example Request:
 
 GET /search?query=inception
 
