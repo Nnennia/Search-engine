@@ -1,6 +1,6 @@
 # Movie Search Application
 
-This project is a movie search application built with MongoDB, Redis, and Elasticsearch, and served through an Express API. It allows users to search for movies by various fields like movieName, cinema, actorName, and genre. The application caches search results using Redis to speed up repeated queries.
+This project is a movie search application built with MongoDB, Redis, and Elasticsearch, and served through an Express API. It allows users to search for movies by various fields like movie name, cinema, actor name, and genre. The application caches search results using Redis to speed up repeated queries.
 
 ## Features
 
